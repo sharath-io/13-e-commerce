@@ -1,0 +1,105 @@
+:root {
+    --secondary-background: #FFFFFF;
+}
+
+/* nav bar css */
+/* Id here is used for specificity */
+.navigation {
+    border-bottom: 0.2rem solid var(--secondary-color);
+    color: var(--text-color);
+}
+
+#nav-id .link-active {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.navigation .link-active .meta-icon {
+    color: var(--secondary-color);
+}
+
+.meta-info {
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.banner-img {
+    height: 30rem;
+    width: 100%;
+}
+
+.fit {
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-content {
+    position: relative;
+}
+
+.text-overlap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--text-color);
+    opacity: 90%;
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.categories {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.categories .card-container {
+    background-color: var(--text-color);
+}
+
+.card-container {
+    height: 70rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.card .card-image {
+    height: 50%;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 13rem;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-color);
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .row li {
+    list-style-type: none;
+}
+
+.navigation .list-non-bullet .login {
+    border: 0.02rem solid var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: var(--alert-primary-color);
+}
